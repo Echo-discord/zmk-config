@@ -14,7 +14,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        engramlayer {
             bindings = <
 &kp ESC  &kp B  &kp Y           &kp O      &kp U      &kp SEMICOLON                    &kp V     &kp L  &kp D     &kp W      &kp P     &kp LBKT
 &kp TAB  &kp C  &kp I           &kp E      &kp A      &kp LS(SQT)                      &kp Q     &kp H  &kp T     &kp S      &kp SEMI  &kp RIGHT_BRACKET
