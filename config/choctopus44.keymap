@@ -16,10 +16,10 @@
 
         engramlayer {
             bindings = <
-&kp ESC  &kp B  &kp Y           &kp O      &kp U      &kp SEMICOLON                    &kp V     &kp L  &kp D     &kp W      &kp P     &kp LBKT
-&kp TAB  &kp C  &kp I           &kp E      &kp A      &kp LS(SQT)                      &kp Q     &kp H  &kp T     &kp S      &kp SEMI  &kp RIGHT_BRACKET
-&kp G    &kp X  &kp J           &kp K      &kp F      &none          &kp K_PLAY_PAUSE  &kp Z     &kp R  &kp M     &kp COMMA  &kp DOT   &kp SLASH
-                &kp LEFT_SHIFT  &kp LCTRL  &kp SPACE  &mo 1                            &kp BSPC  &mo 2  &kp RGUI  &kp RALT
+&kp ESC  &kp B  &kp Y           &kp O      &kp U      &kp SEMICOLON                    &kp V        &kp L          &kp D          &kp W          &kp P     &kp LBKT
+&kp TAB  &kp C  &kp I           &kp E      &kp A      &kp LS(SQT)                      &kp Q        &kp H          &kp T          &kp S          &kp SEMI  &kp RIGHT_BRACKET
+&kp G    &kp X  &kp J           &kp K      &kp F      &none          &kp K_PLAY_PAUSE  &kp Z        &kp R          &kp M          &kp COMMA      &kp DOT   &kp SLASH
+                &kp LEFT_SHIFT  &kp LCTRL  &kp SPACE  &mo 1                            &lt 2 ENTER  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
